@@ -18,7 +18,7 @@ export class RegistrationComponent implements OnInit {
     'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
   ];
 
-  constructor(private httpService:HttpService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }

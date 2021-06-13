@@ -1,0 +1,104 @@
+<mat-toolbar>
+    <span>Registration</span>
+ </mat-toolbar>
+ <div class="main-div">
+
+<!-- Material form register -->
+<mat-card>
+
+  <mat-card-header class="info-color white-text text-center py-4">
+    <h5>
+      <strong>Sign up</strong>
+    </h5>
+  </mat-card-header>
+
+  <!--Card content-->
+  <mat-card-content class="px-lg-5 pt-0">
+    <!-- Form -->
+    <form class="text-center" style="color: #757575;">
+
+      <div class="row">
+        <div class="col">
+          <!-- First name -->
+          <mat-form-field>
+            <mat-label>First name</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <!-- Last name -->
+          <mat-form-field>
+            <mat-label>Last name</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col">
+          <mat-form-field>
+            <mat-label>Address</mat-label>
+            <textarea matInput placeholder="Ex. 100 Main St"></textarea>
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field>
+            <mat-label>Address 2</mat-label>
+            <textarea matInput></textarea>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="row">
+        <mat-form-field >
+          <mat-label>State</mat-label>
+          <mat-select>
+            <mat-option>None</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      
+    <div class="row">
+      <mat-form-field>
+        <mat-label>Postal Code</mat-label>
+        <input matInput>
+      </mat-form-field>
+    </div>
+
+      <!-- E-mail -->
+      <div class="row">
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="nic@gmail.com">
+        </mat-form-field>
+      </div>
+
+      <!-- Password -->
+      <div class="row">
+        <mat-form-field>
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="">
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field>
+          <mat-label>Confirm Password</mat-label>
+          <input matInput placeholder="">
+        </mat-form-field>
+      </div>
+
+      <!-- Phone number -->
+      <div class="row">
+        <mat-form-field>
+          <mat-label>Phone Number</mat-label>
+          <input matInput placeholder="Enter 10-Digit Mobile Number">
+        </mat-form-field>
+      </div>
+      <button mat-stroked-button color="accent" class="btn-block">Register</button>
+    </form>
+    <!-- Form -->
+  </mat-card-content>
+</mat-card>
+</div>
